@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+   /* background: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.75)),url(index.jpg);*/
+    
+    }
+.form
+{
+    height: 300px;
+    width: 800px;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    border: 2px solid darkblue;
+    text-align: center;
+}
+.btn{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 20px 10px;
+    position: relative;
+    top: 150px;
+}
+.btn:hover{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 20px 10px;
+    background-color: blueviolet;
+    color: white;
+    position: relative;
+    top: 150px;
+}
+.table{
+    position: inherit;
+    top: 25%;
+    left: 7%;
+}
+.srch{
+    border-radius: 20px;
+    padding: 5px;
+}
+.srch:hover{
+    border-radius: 20px;
+    background-color: mediumblue;
+    color: bisque;
+}

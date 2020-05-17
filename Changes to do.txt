@@ -1,0 +1,30 @@
+Things need to be checked for the database of php project
+
+Name of the database:php_project
+
+Another table to be added tp tyhe database:queries.it has autoincremented question id and query as the column field.
+
+Result table :
+student_id
+semester
+maths
+physics
+web dev
+prin of c
+icse
+cpi
+exam_date
+
+
+in result_display and student_password_portal can be added as hidden fields which appear only when the link filter is clicked
+
+Add placeholders
+Add the column class in student table
+
+
+
+
+*****************************************************************************************************************************************
+1)How to check if a radio button is selected or not
+2)in creating new notice form when we want to send according to class or semester,we would need to execute the insert query multiple and variable times. How would we do it?
+3)

@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image:linear-gradient(to bottom left,#c850c0, #4158d0);
+}
+.box{
+    background-color:white;
+    width: 700px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    border-radius: 25px;
+    top: 1.5%;
+    left: 25%;
+}
+h1{
+    font:courier new;
+    color: black;
+    font-style: oblique;
+    padding: 7px;
+}
+.form{
+    position: inherit;
+    top: 10%;
+    color: darkslategrey;
+    text-align: center;
+}
+.form lable{
+    color: darkslategrey;
+    font-size: 15px;
+    font-weight: 300;
+}
+/*.form input[type="text"],input[type="number"],input[type="date"],input[type="email"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    color: darkslategrey;
+    background: transparent;*/
+
+.btn{
+    display:inline-block;
+    text-decoration: none;
+    background: #57b846;
+    color: white;
+    text-transform:uppercase;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #57b846;
+    height: 35px;
+    width: 150px;
+    
+}
+.btn:hover{
+    display: inline-block;
+    text-decoration:none;         
+    color: whitesmoke;
+    background-color: #333;
+    border: none;
+    position: inherit;
+    
+}
+  
+.inputre{
+   width: 40%;
+    font-size: 15px;
+    color: #666;
+    border: none;
+    display: inline-block;
+    background: #e6e6e6;
+  height: 30px;
+    border: none;
+  border-radius: 25px;
+  padding: 0 20px 0 58px;
+}

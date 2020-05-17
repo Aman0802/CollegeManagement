@@ -1,0 +1,131 @@
+h1{
+    font-size: 45px;
+    font-style: oblique;
+}
+h2{
+    font-size: 35px;
+    font-style: italic;
+}
+h3{
+     font-size: 25px;
+    font-style: italic;
+}
+.top-nav-color{
+    background-image :linear-gradient( to top right ,#20bf55 0%, #01baef 44%,rebeccapurple);
+}
+.about
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.leader{
+    border: 1px  midnightblue;
+    width: 33.33333%;
+    height: 200px;
+    display: inline-block;
+}
+.staff{
+    border: 1.5px solid #1e1e6f;
+    height: 200px;
+    width: 16.41666%;
+    display: inline-block;
+    float: left;
+}
+.profile
+{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+	top: -50%;
+	left: calc(50% 50px);
+    position: center;
+	border-radius: 50px;
+}
+.container-wrap{
+    background: black;
+    align-content: center;
+    padding: 0 30px ;
+    float: right;
+    width: 40%;
+    height: 350px;
+     
+}
+.contact{
+    color: aliceblue;
+   text-align: center;
+   position: relative;
+   /* top: 130%;*/
+   right:30%;
+}
+.contact h3{
+    font-size: 25px;
+}
+
+
+.form-group input[type="text"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	color: aliceblue;
+    text-shadow: white;
+	font-size: 14px;
+    margin: 5px 0 5px;
+}
+.form-group textarea{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: aliceblue;
+    font-size: 14px;
+    margin: 5px 0 5px;
+}
+.form-group input[type="submit"]
+{
+        border:1px solid #ffe;
+	outline: none;
+	height: 40px;
+    width: 12%;
+	background: transparent;
+	color: #fff;
+	font-size: 18px;
+    left: 30%;
+}
+.form-group input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: antiquewhite;
+    color: #000;
+}
+.declare-me{ 
+    position: absolute;
+    top: 160%;
+    left: 17.25%;
+    width: 82.75%;
+    height: 100px;
+    background: rebeccapurple;
+}
+.declare-me p{
+     text-decoration: none;
+    text-align: center;
+    line-height: 100px;
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+}
+.inputre{
+   width: 40%;
+    font-size: 15px;
+    align-self: center;
+    color: #666;
+    border: none;
+    display: inline-block;
+    background: red;
+  height: 35px;
+    border: none;
+  border-radius: 25px;
+  padding: 0 20px 0 58px;
+}
+
